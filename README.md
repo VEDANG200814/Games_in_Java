@@ -1,4 +1,4 @@
-# Stonepaperandscissors
+# Stone paper and scissors
  Download the VS Code or any other IDE.
   Dowload the Java extension pack.
   Create a .java file.
