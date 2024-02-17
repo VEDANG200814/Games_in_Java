@@ -14,7 +14,7 @@ public class Stonepaperandscissors
         for(int i=1;i<=p;i++)
         {
             ch=sc.next();
-            int chc=(int)((Math.random()*(2-0))+0);
+            int chc=(int)(Math.random()*(2-0+1));
             if(ch.equals("s")&&chc==2)
             {
                 cc++;
@@ -56,10 +56,14 @@ public class Stonepaperandscissors
                 System.out.println("You: "+c+"\nComp: "+cc);
                 p++;
             }
+            else
+            p++;
         }
         if(c>cc)
         System.out.println("You Win!!\nYou: "+c+"\nComp: "+cc);   
-        else 
+        else if(c<cc)
         System.out.println("You Lose!!\nYou: "+c+"\nComp: "+cc);        
+        else
+        System.out.println("Draw!!\nYou: "+c+"\nComp: "+cc);
     }
 }
